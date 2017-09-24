@@ -1,0 +1,162 @@
+/* A downloaded font we use */
+@font-face {
+    font-family: "bebas_neue";
+    src: url(../fonts/BebasNeue.otf) format("opentype");
+}
+
+body {
+	background-image:url(../images/background-texture.jpg);
+    color: #006DB2;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: "bebas_neue";
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+}
+
+button {
+    background-color:#ff9810;
+    color: white;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+	cursor:pointer;
+}
+
+/* Frontpage */
+
+#frontpage {
+    background-color: #0230de;
+    background-image: none;
+    text-align:center;
+}
+
+.intro_text {
+    font-family: "bebas_neue";
+    font-size:72px;
+	color:white;
+    text-shadow: 1px 1px black;
+}
+
+.intro_text span {
+    opacity: 0.8;
+    font-size: 30px;
+}
+
+#frontpageTravelText a{
+    text-decoration: none;
+    color:white;
+    font-size: 36px;
+    text-shadow: 1px 1px black;
+}
+
+#mute {
+	cursor:pointer;
+}
+
+/* Skræddersy din rejse website */
+
+#circleImageDiv {
+    margin-top: 40px;
+}
+
+#travelButton {
+    font-family: "bebas_neue";
+}
+
+/* Parallax scroll website */
+
+#kampagne {
+    margin-bottom: 30px;
+}
+
+.parallax_text {
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+video {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.linkButtons {
+    float: right;
+	margin-top:20px;
+}
+
+.linkButtons button {
+	margin-right:20px;
+}
+
+/* Nav-bar */
+#custom-nav {
+    margin-top:45px;
+    margin-bottom: 50px;
+}
+
+#logo {
+	max-width:7%;	
+}
+
+/* footer */
+
+footer {	
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: none;
+    color:black;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    color:blue;
+}
+
+/* Social media logos */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
